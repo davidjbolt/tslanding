@@ -2,73 +2,78 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>CS Tech Support</title>
-    <link rel="stylesheet" href="/css/master.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>CSTechSupport</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
 <!--header, logo on left and nav options on right-->
-    <header>
-      <img src="tslogo.png">
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
-        </ul>
-      </nav>
-    </header>
-    <hr>
-    <main>
+    <div class="top-section">
+        <header>
+          <a href="#"><img class="ts-logo" src="images/techsupp2.png"></a>
+          <nav>
+            <ul>
+              <li><a class="nav-links" href="index.html">Hooome</a></li>
+              <li><a class="nav-links" href="about.html">About</a></li>
+              <li><a class="nav-links" href="team.html">Team</a></li>
+              <li><a class="nav-links" href="blog.html">Blog</a></li>
+            </ul>
+          </nav>
+        </header>
 <!--main header section, could be hero-ish section with background image of team area-->
       <section>
-        <h1>Customer Service Tech Support</h1>
-        <p>Specialists in troubleshooting Amway's web, mobile and durable products.</p>
-        <button type="button" name="button">See us in action!</button>
+        <h1 class="intro-header">Customer Service Tech Support</h1>
+        <p class="intro-text">Specialists in troubleshooting Amway's digital resources and durable products.</p>
       </section>
-      <hr>
+    </div>
 <!--descriptions and headings of what the team supports, with modal buttons that show additional info about each product-->
-      <section>
-        <h2>What we support</h2>
-        <article class="">
-          <h3>Mobile and digital resources</h3>
-          <span><button type="button" name="button">Amway Website</button></span>
-          <span><button type="button" name="button">Amway App</button></span>
-        </article>
-        <article class="">
-          <h3>Durable Products</h3>
-          <span><button type="button" name="button">eSpring</button></span>
-          <span><button type="button" name="button">Atmosphere</button></span>
-          <span><button type="button" name="button">Legacy products</button></span>
-        </article>
-      </section>
-      <hr>
-<!--team biographies, pictures with hover effect to change pictures, and scroll buttons on side to view more-->
-      <section>
-        <h2>Meet the team</h2>
-        <section>
-          <img src="dbolt.png" alt="">
-          <img src="mmarion.png" alt="">
-          <img src="japple.png" alt="">
+    <div class="support">
+        <section class="what-we-support">
+          <h2>What we support</h2>
+          <article class="digital-resources">
+            <h3>Digital Resources</h3>
+              <h4>Amway website</h4>
+                <p>We troubleshoot and tackle many of the common (and not so common) web-related issues that plague our callers in order to get them back up and running online as quickly as possible.</p>
+              <h4>Amway Mobile Apps</h4>
+                <p>We’re experts in the mobile arena, helping callers with basic functionality of all nested apps within the Amway App, and educating them on proper usage of the Amway mobile site.</p>
+          </article>
+          <article class="durable-products">
+            <h3>Durable Products</h3>
+              <h4>eSpring</h4>
+                <p>People need great drinking water, so we troubleshoot current and past water treatment systems in order to keep them running smoothly for their owners.</p>
+              <h4>Atmosphere</h4>
+                <p>Our IBO's and customers need to breathe good, clean air, so we keep current and former air treatment systems in tip-top shape, and educate callers on proper maintenance.</p>
+          </article>
         </section>
-<!--additional bio section to provide more info, show currently selected pic and a short bio section-->
+    </div>
+<!--team biographies, pictures with hover effect to change pictures, and scroll buttons on side to view more-->
+    <div>
+        <section>
+          <h2>Meet the team</h2>
+          <section>
+              <img src="dbolt.png" alt="">
+              <img src="mmarion.png" alt="">
+              <img src="japple.png" alt="">
+          </section>
+  <!--additional bio section to provide more info, show currently selected pic and a short bio section-->
+          <hr>
+          <section>
+              <img src="" alt="">
+              <button type="button" name="left button"></button>
+              <button type="button" name="right button"></button>
+              <img src="" alt="">
+              <p>This will be the bio of the currently selected team member.</p>
+          </section>
+        </section>
         <hr>
         <section>
-          <img src="" alt="">
-          <button type="button" name="left button"></button>
-          <button type="button" name="right button"></button>
-          <img src="" alt="">
-          <p>This will be the bio of the currently selected team member.</p>
+            <h2>What others are saying about us...</h2>
+            <p>"I've never had better service!" - Tom K.</p>
+            <p>"You guys rock!" - Bill P.</p>
+            <p>"Matt was helpful and efficient" - Stan L.</p>
         </section>
-      </section>
-      <hr>
-      <section>
-        <h2>What others are saying about us...</h2>
-        <p>"I've never had better service!" - Tom K.</p>
-        <p>"You guys rock!" - Bill P.</p>
-        <p>"Matt was helpful and efficient" - Stan L.</p>
-      </section>
-      <hr>
+      </div>
 <!--Blog section, small squares with preview and 'read more' button(currently not formatted correctly) -->
       <section>
         <h2>This is where the fancy writings will happen.</h2>
