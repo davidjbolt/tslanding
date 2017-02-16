@@ -104,7 +104,7 @@ body {
   float: left;
   display: block;
   width: 33.33%;
-  padding: 10px 25px 80px 25px;
+  padding: 10px 25px 65px 25px;
 
 }
 
@@ -160,4 +160,16 @@ body {
 .meet li {
   display: inline;
   width: 25%;
+}
+
+.intro {
+  margin: 0 250px;
+  line-height: 1.5em;
+  display: block;
+}
+
+.intro p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
 }
