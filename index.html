@@ -1,106 +1,82 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>CSTechSupport</title>
+    <title>Tech Support</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,500,700" rel="stylesheet">
   </head>
   <body>
-<!--header, logo on left and nav options on right-->
-    <div class="top-section">
-        <header>
-          <a href="#"><img class="ts-logo" src="images/techsupp2.png"></a>
-          <nav>
-            <ul>
-              <li><a class="nav-links" href="index.html">Home</a></li>
-              <li><a class="nav-links" href="about.html">About</a></li>
-              <li><a class="nav-links" href="team.html">Team</a></li>
-              <li><a class="nav-links" href="blog.html">Blog</a></li>
-            </ul>
-          </nav>
-        </header>
-<!--main header section, could be hero-ish section with background image of team area-->
-      <section>
-        <h1 class="intro-header">Customer Service Tech Support</h1>
-        <p class="intro-text">Specialists in troubleshooting Amway's digital resources and durable products.</p>
+
+    <section class="header">
+      <header>
+        <a href="#"><img class="nav-image" src="images/techsupp2.png" style="width:100px; height:100px;" alt="Tech Support Logo"></a>
+        <nav class="nav-header">
+          <ul class="nav-text">
+            <li><a class="nav-link" href="#">Home</a></li>
+            <li><a class="nav-link" href="#">About</a></li>
+            <li><a class="nav-link" href="#">Team</a></li>
+            <li><a class="nav-link" href="#">Blog</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="team-name">
+          <h1>SMX Tech Support</h1>
+          <span>Amway Customer Service</span>
       </section>
-    </div>
-<!--descriptions and headings of what the team supports, with modal buttons that show additional info about each product-->
-    <div class="support">
-        <section class="what-we-support">
-          <h2>What we support</h2>
-          <article class="digital-resources">
-            <h1>Digital Resources</h1>
-              <h2>Amway website</h2>
-                <p>We troubleshoot and tackle many of the common (and not so common) web-related issues that plague our callers in order to get them back up and running online as quickly as possible.</p>
-              <h2>Amway Mobile Apps</h2>
-                <p>We’re experts in the mobile arena, helping callers with basic functionality of all nested apps within the Amway App, and educating them on proper usage of the Amway mobile site.</p>
-          </article>
-          <article class="durable-products">
-            <h1>Durable Products</h1>
-              <h2>eSpring</h2>
-                <p>People need great drinking water, so we troubleshoot current and past water treatment systems in order to keep them running smoothly for their owners.</p>
-              <h2>Atmosphere</h2>
-                <p>Our IBO's and customers need to breathe good, clean air, so we keep current and former air treatment systems in tip-top shape, and educate callers on proper maintenance.</p>
-          </article>
-        </section>
-    </div>
-<!--team biographies, pictures with hover effect to change pictures, and scroll buttons on side to view more-->
-    <div>
-        <section>
-          <h2>Meet the team</h2>
-          <section>
-              <img src="dbolt.png" alt="">
-              <img src="mmarion.png" alt="">
-              <img src="japple.png" alt="">
-          </section>
-  <!--additional bio section to provide more info, show currently selected pic and a short bio section-->
-          <hr>
-          <section>
-              <img src="" alt="">
-              <button type="button" name="left button"></button>
-              <button type="button" name="right button"></button>
-              <img src="" alt="">
-              <p>This will be the bio of the currently selected team member.</p>
-          </section>
-        </section>
-        <hr>
-        <section>
-            <h2>What others are saying about us...</h2>
-            <p>"I've never had better service!" - Tom K.</p>
-            <p>"You guys rock!" - Bill P.</p>
-            <p>"Matt was helpful and efficient" - Stan L.</p>
-        </section>
-      </div>
-<!--Blog section, small squares with preview and 'read more' button(currently not formatted correctly) -->
-      <section>
-        <h2>This is where the fancy writings will happen.</h2>
-        <article class="blog-post">
-          <h1>This is a blog post</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </article>
-        <article class="blog-post">
-          <h1>This is another blog post</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </article>
-        <article class="blog-post">
-          <h1>This is a third blog post</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </article>
-      </section>
-    </main>
-    <hr>
-    <footer>Tech Support, 2017</footer>
-  </body>
+    </section>
+<!--white background section with image below <p> tag-->
+    <section class="team-description">
+      <p>We are an elite team of technical troubleshoting specialists, always ready to dive into any issue that keeps our callers from enjoying Amway's digital resources and durable products. We are curious, adaptive, decisive, and we are here to help!</p>
+    </section>
+
+<!--course goals section, treat as <ul>-->
+    <section class="support">
+      <h1>What we support</h1>
+      <ul class="support-list">
+        <li>
+          <h2>Amway Website</h2>
+          <p>We troubleshoot and tackle common, rare, and epic web-related issues in order to keep our <abbr title="Independant Business Owners">IBO's<abbr> and customers happy online.</p>
+        </li>
+        <li>
+          <h2>Mobile Apps</h2>
+          <p>The mobile landscape is constantly changing, and we're tasked with handling Android and iOS issues related to the mobile Amway site and suite of applications.</p>
+        </li>
+        <li>
+          <h2>Mobile Devices</h2>
+          <p>We're techies at heart, so we always stay up to date on the latest phones, tablets and phablets in order to properly diagnose and troubleshoot our callers' preferred devices.</p>
+        </li>
+        <li>
+          <h2>eSpring</h2>
+          <p>Pure drinking water is essential to the health and wellbeing of our callers. We keep the H<sub>2</sub>O flowing by troubleshooting water treatment systems and educating on proper usage and maintenance.</p>
+        </li>
+        <li>
+          <h2>Atmosphere</h2>
+          <p>Clean air is also of utmost importance to our callers, so we're always ready to dig into any bumps, rattles, or squeaks related to their air treatment systems. (Including the upcoming Atmosphere SKY!)</p>
+        </li>
+        <li>
+          <h2>Legacy Products</h2>
+          <p>Amway has a host of products that are still in the field, being lovingly cared for and used by our customers. From the earliest water and air treatment systems like the E85 and the ATS, to our most recent arrivals, we're ready to support them all.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="meet">
+      <h1>MEET THE TEAM!</h1>
+      <ul>
+        <li>David Bolt</li>
+        <li>Heidi Browning</li>
+        <li>Ritaban Chowdhury</li>
+        <li>Timothy Haines</li>
+        <li>Pam Henson</li>
+        <li>Danielle Kendra</li>
+        <li>Michael Reick</li>
+        <li>Christopher Simmons</li>
+        <li>Cody Turnock</li>
+        <li>Zoe Wilson</li>
+        <li>Brian Workman</li>
+      </ul>
+    </section>
+</body>
 </html>
