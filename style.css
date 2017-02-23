@@ -150,6 +150,7 @@ body {
   text-align: center;
   text-transform: capitalize;
   padding-bottom: 50px;
+  padding-left: 1em;
 }
 
 .intro {
@@ -164,7 +165,17 @@ body {
   font-weight: 300;
 }
 
-.team-grid figure {
+.team-grid li {
+  list-style: none;
+  display: inline-block;
+}
+
+.team-grid img {
+  border-radius: 50%;
+  padding-left: 2em;
+}
+
+/*.team-grid figure {
   float: left;
   width: 14%;
   margin-right: 2%;
@@ -175,4 +186,4 @@ body {
 
 .team-grid img {
   border-radius: 50%;
-}
+}*/
