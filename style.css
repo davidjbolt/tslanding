@@ -73,6 +73,7 @@ body {
 
 .header {
   background-image: url("images/hero.jpg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -136,15 +137,7 @@ body {
 .meet {
   background-color: #f9f9f9;
   padding-top: 90px;
-  clear: both;
-}
-
-.meet ul {
-  list-style: none;
-  color: #444444;
-  opacity: 100%;
-  font-size: 22px;
-  font-weight: 500;
+  clear: left;
 }
 
 .meet h1 {
@@ -155,11 +148,6 @@ body {
   text-align: center;
   text-transform: capitalize;
   padding-bottom: 50px;
-}
-
-.meet li {
-  display: inline;
-  width: 25%;
 }
 
 .intro {
@@ -179,7 +167,7 @@ body {
   width: 14%;
   margin-right: 2%;
   display: inline;
-  text-align: center;
+  text-align: center  ;
   margin-bottom: 1rem;
 }
 
