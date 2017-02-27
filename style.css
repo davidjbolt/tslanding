@@ -175,6 +175,11 @@ body {
   padding-left: 2em;
 }
 
+footer {
+  background-color: grey;
+  clear: both;
+}
+
 /*.team-grid figure {
   float: left;
   width: 14%;
